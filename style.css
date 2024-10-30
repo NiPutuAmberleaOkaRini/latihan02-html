@@ -1,0 +1,62 @@
+/* Add styles here */
+body{
+    background-image: url("images/Mingyu.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar{
+    padding: 0px;
+    background-color: white;
+    opacity:50%;
+}
+.navbarmenu{
+    text-align: right;
+    padding: 5%;
+}
+.navbarmenulist{
+    list-style: none;
+}
+.navmenubarlist > li{
+    display: inline-block;
+    padding: 0px 5px;
+}
+.navbarmenulist > li > a{
+    text-decoration: none;
+    color: black;
+    float: right;
+    padding: 8px;
+}
+.navbarmenulist > li:hover{
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    padding: 0px 5px;
+}
+.navbarjudul{
+    text-decoration: none;
+    color:rgb(241, 142, 250);
+    font-size: 2em;
+    position: relative;
+    top: 20px;
+    left: 15px;
+    text-shadow: 2px 2px 8px beige;
+}
+#txhello{
+    font-size: 35px;
+    position: relative;
+    top: 220px;
+    left: 1%;
+}
+#btn1{
+    position: relative;
+    font-size: 20px;
+    padding: 5px 5px 10px;
+    border-radius: 15px;
+    top: 403px;
+    left: 45%;
+}
+#btn1:hover{
+    color:red;
+}
